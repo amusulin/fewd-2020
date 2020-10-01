@@ -1,5 +1,9 @@
 /* Mobile First */
 
 .welcome {
-    color: chartreuse;
+    color: orangered
+}
+
+.intro {
+    color: blue;
 }

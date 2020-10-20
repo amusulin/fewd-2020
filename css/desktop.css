@@ -3,7 +3,6 @@
 @media only screen and (min-width: 900px) {
 
 .welcome {
-    color:chartreuse;
-}
-
+        color: rgb(185, 105, 154);
+    }
 }

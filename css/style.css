@@ -1,9 +1,76 @@
 /* Mobile First */
 
 .welcome {
-    color: chartreuse;
+    color: rgb(185, 105, 154);
 }
 
 .intro {
     color: blue;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    margin-bottom: 12rem;
+
+}
+
+h1 {
+    font-size: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-image: url(../img/bluegreenswirls.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+nav {
+    position: absolute;
+    right: 2rem
+    top: 2 rem
+}
+
+nav ul {
+    list-style: none;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+nav li {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    padding: .5rem;
+    background-color: pink;
+}
+
+button {
+    margin-bottom: 2rem;
+}
+
+.entry {
+    border-bottom: 2px solid black;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: chartreuse;
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
